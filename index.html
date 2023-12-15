@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="text-gray-600 body-font">
@@ -13,27 +20,16 @@
         <a
           class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
+          <img src="/img/logo_2.png" alt="logo" width="54px" height="100%" />
           <span class="ml-3 text-xl">TugasDEV</span>
         </a>
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
-          <a class="mr-5 hover:text-gray-900">Our Project</a>
-          <a class="mr-5 hover:text-gray-900">About Us</a>
+          <a href="#our-project" class="mr-5 hover:text-gray-900"
+            >Our Project</a
+          >
+          <a href="#about-us" class="mr-5 hover:text-gray-900">About Us</a>
           <a
             href="https://github.com/JuniYadi/tugas.dev"
             class="mr-5 hover:text-gray-900"
@@ -80,7 +76,7 @@
     </section>
 
     <section class="text-gray-600 body-font" id="our-project">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-2 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1
             class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
@@ -229,6 +225,11 @@
                   Saat ini belum ada project yang sedang dikerjakan, tapi kami
                   akan segera memulai project baru. Jadi, stay tune!
                 </p>
+
+                <p class="mt-2 font-bold">Repository</p>
+                <a href="https://github.com/JuniYadi"
+                  >https://github.com/JuniYadi</a
+                >
               </div>
             </div>
           </div>
@@ -236,8 +237,18 @@
       </div>
     </section>
 
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font" id="about-us">
       <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+          >
+            About Us
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Apa yang kami lakukan dan siapa kami?
+          </p>
+        </div>
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div class="h-full text-center">
@@ -247,10 +258,7 @@
                 src="https://avatars.githubusercontent.com/u/31454084?v=4"
               />
               <p class="leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Sebagai pembuat website ini, saya sangat senang dapat berbagi ilmu dan pengalaman saya kepada anda semua. Semoga website ini dapat bermanfaat bagi anda semua.
               </p>
               <span
                 class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"
@@ -258,9 +266,14 @@
               <h2
                 class="text-gray-900 font-medium title-font tracking-wider text-sm"
               >
-                HOLDEN CAULFIELD
+                JUNI YADI
               </h2>
-              <p class="text-gray-500">Senior Product Designer</p>
+              <p class="text-gray-700">
+                DevOps Engineer & Backend Developer
+              </p>
+              <p class="text-gray-500">
+                Universitas Widya Kartika
+              </p>
             </div>
           </div>
           <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -284,7 +297,12 @@
               >
                 ALPER KAMU
               </h2>
-              <p class="text-gray-500">UI Develeoper</p>
+              <p class="text-gray-700">
+                DevOps Engineer & Backend Developer
+              </p>
+              <p class="text-gray-500">
+                Universitas Widya Kartika
+              </p>
             </div>
           </div>
           <div class="lg:w-1/3 lg:mb-0 p-4">
@@ -308,7 +326,12 @@
               >
                 HENRY LETHAM
               </h2>
-              <p class="text-gray-500">CTO</p>
+              <p class="text-gray-700">
+                Backend Developer
+              </p>
+              <p class="text-gray-500">
+                Universitas Widya Kartika
+              </p>
             </div>
           </div>
         </div>
